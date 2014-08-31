@@ -21,7 +21,7 @@ val BEVERAGE <- "Weißbier".
 console!log["I want", BEVERAGE, "and", CHEESE, "!"].
 ```
 
-(In case you're the type who doesn't like silly examples,  ¯\_(ツ)\_/¯).
+(In case you're the type who doesn't like silly examples,  ¯\\\_(ツ)\_/¯).
 
 Here's our "compiler":
 
