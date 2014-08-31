@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "description": "extensible and scoped `require.extensions`",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^1.0.4"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "tape test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,15 @@
     "url": "git://github.com/grncdr/ex-tensions/issues"
   },
   "homepage": "https://github.com/grncdr/ex-tensions",
-  "keywords": ["require.extensions","preprocess","compilers","coffee-script","sweet.js","generators","you-name-it"],
+  "keywords": [
+    "require.extensions",
+    "preprocess",
+    "compilers",
+    "coffee-script",
+    "sweet.js",
+    "generators",
+    "you-name-it"
+  ],
   "author": "Stephen Sugden <me@stephensugden.com>",
   "license": "MIT"
 }

@@ -1,4 +1,4 @@
-var debug = require('debug')('extensions');
+var debug = require('debug')('ex-tensions');
 var fs = require('fs');
 var path = require('path');
 
@@ -70,7 +70,7 @@ function initLoader (extensions, ext) {
       if (!extRegexp.test(module.filename)) {
         // Previous stage changed extension of module.filename
         // call the new loader.
-        console.log('extension changed %s', module.filename);
+        debug('extension changed %s', module.filename);
         return chooseLoader(module.filename).preprocess(module, content);
       }
     }
